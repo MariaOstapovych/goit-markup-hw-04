@@ -333,8 +333,33 @@ margin-top: 30px;
     display: flex;
     gap: 10px;
     margin: 16px 32px 30px 32px;
-    justify-content: space-between;
 }
+
+.team-icon-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: var(--white-color);
+}
+
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--svg-color);
+}
+
+.team-icon-link:hover {
+    background-color: var(--accent-text-color);
+}
+
+.team-icon-link:hover .team-icon {
+    fill: var(--white-color);
+}
+
 
 .team-list-img {
     margin: 0;
@@ -355,29 +380,7 @@ margin-top: 30px;
     margin-bottom: 0;
 }
 
-.team-icon-link {
-    display: block;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--white-color);
-}
 
-.team-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    fill: var(--svg-color);
-    margin: 12px;
-}
-
-.team-icon-link:hover {
-    background-color: var(--accent-text-color);
-}
-
-.team-icon-link:hover .team-icon {
-    fill: var(--white-color);
-}
 
 
 
@@ -388,7 +391,13 @@ margin-top: 30px;
 .clients-list {
     display: flex;
     gap: 30px;
+}
+
+.client-link {
+    display: flex;
+    align-items: center;
     justify-content: center;
+
 }
 
 .company-icon {
@@ -569,7 +578,9 @@ margin-top: 30px;
 }
 
 .footer-icon-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -583,7 +594,6 @@ margin-top: 30px;
 .footer-icon {
     width: 20px;
     height: 20px;
-    margin: 12px;
 
     fill: var(--white-color);
 
