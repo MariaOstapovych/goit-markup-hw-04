@@ -353,7 +353,8 @@ margin-top: 30px;
     fill: var(--svg-color);
 }
 
-.team-icon-link:hover {
+.team-icon-link:hover,
+.team-icon-link:focus {
     background-color: var(--accent-text-color);
 }
 
