@@ -266,16 +266,17 @@ a {
 }
 
 .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color: var(--team-button-icon-color);
 }
 
-.icon {
-    display: inline-block;
+.icon { 
     width: 70px;
     height: 70px;
-    margin: 25px 100px 25px 100px;
 }
 
 .feature-list-title {
