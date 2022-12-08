@@ -357,7 +357,8 @@ margin-top: 30px;
     background-color: var(--accent-text-color);
 }
 
-.team-icon-link:hover .team-icon {
+.team-icon-link:hover .team-icon,
+.team-icon-link:focus .team-icon {
     fill: var(--white-color);
 }
 
@@ -409,7 +410,8 @@ margin-top: 30px;
     fill: var(--svg-color);
 }
 
-.company-icon:hover {
+.company-icon:hover,
+.company-icon:focus {
     fill: var(--accent-text-color);
     border: 1px solid var(--accent-text-color);
 }
@@ -441,7 +443,8 @@ margin-top: 30px;
     flex-basis: calc((100% - 60px) / 3); 
 }
 
-.gallery-list-item:hover {
+.gallery-list-item:hover,
+.gallery-list-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -588,7 +591,8 @@ margin-top: 30px;
     background: var(--footer-icon-link-background);
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
     background-color: var(--accent-text-color);
 }
 
